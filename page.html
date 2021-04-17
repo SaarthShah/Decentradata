@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="pstyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
-    <script src="https://code.highcharts.com/stock/highstock.js"></script>
-    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
-    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-    <script src="pjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.1/dist/chart.min.js"></script>
     <title>Decentradata| </title>
 </head>
 <body>
@@ -27,16 +24,28 @@
 <h2>6 Month esitmated value: 35000</h2>
 <h2>Location: (101,34)</h2>
 </div>
-    <div id="container"></div>
 
+
+
+<div class="container">
+    <canvas id="myChart"></canvas>
+  </div>
     
+
+
+
 <div class="bbutton">
     <button>
         Buy now from the marketplace!
     </button>
     </div>
-    <section id="comparables">
 
+
+
+<section id="comparables">
+<h4>
+    Comparables
+</h4>
         <div class="cards"> <!---holder for cards-->
 
             <div class="card">
@@ -64,5 +73,43 @@
 
     </section>
 
+<script>
+    const ctx = document.getElementById('myChart');
+const myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['May', 'June', 'July', 'August', 'September', 'October'],
+        datasets: [{
+            label: 'Price in Mana',
+            data: [5000, 5500, 5400, 5650, 5700, 5900],
+            backgroundColor: [
+                'rgba(0, 211, 255, 0.3)',
+                'rgba(255, 45, 85, 0.3)',
+                'rgba(160, 36, 179, 0.3)',
+                'rgba(243, 242, 245, 0.3)',
+                'rgba(11, 184, 123, 0.3)',
+                'rgba(252, 153, 101, 0.3)'
+            ],
+            borderColor: [
+                'rgba(0, 211, 255, 1)',
+                'rgba(255, 45, 85, 1)',
+                'rgba(160, 36, 179, 1)',
+                'rgba(243, 242, 245, 1)',
+                'rgba(11, 184, 123, 1)',
+                'rgba(252, 153, 101, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+</script>
 </body>
 </html>

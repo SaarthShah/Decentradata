@@ -98,6 +98,15 @@ color: white;
 font-weight: lighter;
 }
 
+h4{
+    
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+ }
+
 .des{
  padding: 3px;
  text-align: center;
@@ -120,4 +129,10 @@ button:hover{
  color: white;
  transition: .5s;
  cursor: pointer;
+}
+.container{
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 80px;
 }
