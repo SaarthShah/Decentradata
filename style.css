@@ -46,3 +46,53 @@ display: flex;
     color: white;
     font-weight: lighter;
 }
+#cards
+{
+    padding-bottom: 50px;
+}
+.data{
+    padding: 30px;
+
+}
+.card{
+    height: 600px;
+    width: 350px;
+    background-color: #353535;
+    border-radius: 10px;
+    display: flexbox;
+}
+.card h3{
+    font-family: 'Monda', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.card img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chart{
+    height: 150px;
+}
+.card h2{
+    
+    font-family: 'Monda', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+button{
+    margin-top: 20px;
+    background-color:#F2552F;
+    border: none;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
