@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.1/dist/chart.min.js"></script>
+    <title>Decentradata| </title>
+</head>
+<body>
+    <header class="headr">
+        <div class="logo">
+            <img src="images/Decentraldatalogo.png" alt="">
+        </div>
+    </header>
+    <div class="data">
+<h1 class="heading">
+    Predicted price for NFT 101
+</h1>
+<h2>Current Sale Price: 20000</h2>
+<h2>6 Month esitmated value: 35000</h2>
+<h2>Location: (101,34)</h2>
+</div>
+
+<div class="container">
+    <canvas id="myChart"></canvas>
+  </div>
+    
+
+
+
+<div class="bbutton">
+    <button>
+        Buy now from the marketplace!
+    </button>
+    </div>
+
+
+
+<section id="comparables">
+<h4>
+    Comparables
+</h4>
+        <div class="cards"> <!---holder for cards-->
+
+            <div class="card">
+                <div class="image">
+                <img src="images/stockscreenshot.png">
+                </div>
+                <div class="title">
+                    <h1 class="name">NFT Gallery</h1>
+                    <h1 class="coord">(101,25)</h1>
+                    <h1>Expected growth:
+                        250%
+                    </h1>
+                    <h1> Current price:<br>
+                    20000</h1>
+                    <h2>Time till expiration: 12 days</h2>
+                </div>
+                <div class="des">
+                <button>Click to learn more</button>
+                </div>
+                </div>
+
+                
+
+        </div>
+
+    </section>
+
+<script>
+    const ctx = document.getElementById('myChart');
+const myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['May', 'June', 'July', 'August', 'September', 'October'],
+        datasets: [{
+            label: 'Price in Mana',
+            data: [5000, 5500, 5400, 5650, 5700, 5900],
+            backgroundColor: [
+                'rgba(0, 211, 255, 0.3)',
+                'rgba(255, 45, 85, 0.3)',
+                'rgba(160, 36, 179, 0.3)',
+                'rgba(243, 242, 245, 0.3)',
+                'rgba(11, 184, 123, 0.3)',
+                'rgba(252, 153, 101, 0.3)'
+            ],
+            borderColor: [
+                'rgba(0, 211, 255, 1)',
+                'rgba(255, 45, 85, 1)',
+                'rgba(160, 36, 179, 1)',
+                'rgba(243, 242, 245, 1)',
+                'rgba(11, 184, 123, 1)',
+                'rgba(252, 153, 101, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+</script>
+</body>
+</html>

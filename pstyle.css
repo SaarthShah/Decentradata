@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  
+}
+
+body {
+	background: #000;
+    background-color: #262525;
+}
+.logo img
+{
+width: 230px;
+}
+.headr{
+    width:100%;
+    height: 85px;
+    background-color: #353535;
+}
+#container{
+margin: 0 auto;
+min-width: 310px;
+height: 400px;
+width: 80%;
+}
+.data{
+    display: flexbox;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Monda', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+ }
+ h2{
+    font-size: 15px;
+    font-family: 'Monda', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+ }
+ .bbutton{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+ }
+ .bbutton button{
+     height: 50px;
+     width: 250px;
+     margin: 0 auto;
+border: none;
+font-family: 'Monda', sans-serif;
+font-weight: lighter;
+color: white;
+background-color: #F2552F;
+ }
+
+ .card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px; 
+    margin: 2%;
+   background: #353535;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.title{
+
+ text-align: center;
+ padding: 5px;
+ color:white;
+ 
+}
+
+h1{
+   padding: 1px;
+ font-size: 20px;
+ font-family: 'Monda', sans-serif;
+ font-weight: lighter;
+}
+h2{
+    
+font-family: 'Monda', sans-serif;
+text-align: center;
+font-size: 14px;
+color: white;
+font-weight: lighter;
+}
+
+h4{
+    
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+ }
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+   width: 80%;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ background-color: red;
+ border: 1px ;
+ padding:10px;
+ color:white;
+}
+button:hover{
+ background-color: red;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+.container{
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}

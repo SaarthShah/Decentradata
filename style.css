@@ -47,7 +47,7 @@ display: flex;
     font-weight: lighter;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap"); */
 
 .card:hover {
   transform: translateY(-0.5%);
