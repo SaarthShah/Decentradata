@@ -93,6 +93,15 @@ display: flex;
     font-weight: lighter;
     }
    
+h5{
+    
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 75px;
+    }
    .des{
      padding: 3px;
      text-align: center;
