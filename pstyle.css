@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  
+}
+
+body {
+	background: #000;
+    background-color: #262525;
+}
+.logo img
+{
+width: 230px;
+}
+.headr{
+    width:100%;
+    height: 85px;
+    background-color: #353535;
+}
+#container{
+margin: 0 auto;
+min-width: 310px;
+height: 400px;
+width: 80%;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Monda', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+ .bbutton{
+     
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+ .bbutton button{
+border: none;
+font-family: 'Monda', sans-serif;
+font-weight: lighter;
+color: white;
+height: 30px;
+background-color: #F2552F;
+ }
