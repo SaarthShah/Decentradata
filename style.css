@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  
+}
+
+body {
+	background: #000;
+    background-color: #262525;
+}
+.logo img
+{
+width: 230px;
+}
+.headr{
+    width:100%;
+    height: 85px;
+    background-color: #353535;
+}
+.maph{
+display: flex;
+}
+.map{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 400px;
+    width: 400px;
+}
+.map img{
+    width: 130px;
+    height: 130px;
+}
+#cards{
+    padding-top: 100px;
+    width: 100%;
+}
+.heading{
+    padding-top: 50px;
+}
+.heading h1{
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+}
