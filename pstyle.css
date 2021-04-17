@@ -59,3 +59,65 @@ font-weight: lighter;
 color: white;
 background-color: #F2552F;
  }
+
+ .card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px; 
+    margin: 2%;
+   background: #353535;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.title{
+
+ text-align: center;
+ padding: 5px;
+ color:white;
+ 
+}
+
+h1{
+   padding: 1px;
+ font-size: 20px;
+ font-family: 'Monda', sans-serif;
+ font-weight: lighter;
+}
+h2{
+    
+font-family: 'Monda', sans-serif;
+text-align: center;
+font-size: 14px;
+color: white;
+font-weight: lighter;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+   width: 80%;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ background-color: red;
+ border: 1px ;
+ padding:10px;
+ color:white;
+}
+button:hover{
+ background-color: red;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
