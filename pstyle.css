@@ -24,6 +24,11 @@ min-width: 310px;
 height: 400px;
 width: 80%;
 }
+.data{
+    display: flexbox;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 h1{
   font-size: 30px;
@@ -31,19 +36,26 @@ h1{
   font-weight: lighter;
   color: white;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+ }
+ h2{
+    font-size: 15px;
+    font-family: 'Monda', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
  }
  .bbutton{
-     
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
  }
  .bbutton button{
+     height: 50px;
+     width: 250px;
+     margin: 0 auto;
 border: none;
 font-family: 'Monda', sans-serif;
 font-weight: lighter;
 color: white;
-height: 30px;
 background-color: #F2552F;
  }
