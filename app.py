@@ -1,4 +1,5 @@
 import pymongo
+import eel
 
 client = pymongo.MongoClient(
    "mongodb+srv://seanroades:justiN95!@virtual-worlds-cluster.fytit.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
